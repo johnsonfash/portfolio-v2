@@ -48,7 +48,7 @@ const SectionFour = () => {
   return (
     <div className="py-16">
       <div className="text-xl mb-6 text-center font-semibold"><span className="inline-block">C</span><span className="inline-block decoration-wavy underline underline-offset-8">ontact U</span><span className="inline-block">s</span></div>
-      <div className="text-center w-1/2 mb-12 mx-auto">Got a project? Let's talk.</div>
+      <div className="text-center w-1/2 mb-12 mx-auto">Got a project? Let&apos;s talk.</div>
       <div className="flex justify-between">
         <div className="w-[38%]">
           <div className="text-[0.9rem]">CONTACT INFO</div>

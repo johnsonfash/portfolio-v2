@@ -8,7 +8,7 @@ const Intro = () => {
     <section className="flex py-10 justify-between items-center">
       <div className="w-1/2 pr-[10%]">
         <div className="text-lg font-[500]">
-          👋 Hi, I'm Johnson Fash
+          👋 Hi, I&apos;m Johnson Fash
         </div>
         <h3 className="text-4xl font-semibold mt-4 mb-6">Software <span className="inline-block decoration-wavy underline underline-offset-4">Dev</span>eloper</h3>
         <div>

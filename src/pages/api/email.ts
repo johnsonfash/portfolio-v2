@@ -12,7 +12,7 @@ interface EmailRequest {
 const sendMail = async (data: EmailRequest) => {
   const url = "api.zeptomail.com/";
   const token = process.env.ZOHO_TOKEN;
-  let client = new SendMailClient({ url, token });
+  const client = new SendMailClient({ url, token });
   try {
     await client.sendMail({
       "from":
@@ -42,7 +42,7 @@ const sendMail = async (data: EmailRequest) => {
  </div>`,
     });
     return true
-  } catch (error: any) {
+  } catch {
     return false
   }
 }
