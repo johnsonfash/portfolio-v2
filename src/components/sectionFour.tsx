@@ -31,7 +31,14 @@ const SectionFour = () => {
 
   const submit = async (data: Record<string, any>) => {
     try {
-      const res = await fetch('', { body: JSON.stringify(data), method: 'post' });
+      const res = await fetch('/api/email',
+        {
+          body: JSON.stringify(data),
+          headers: {
+            'Content-Type': 'application/json',
+          },
+          method: 'post'
+        });
       return await res.json() as { data: any, status: boolean, message: string }
     } catch (error: any) {
       return { status: false, message: error.message, data: null }
