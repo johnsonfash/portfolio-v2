@@ -1,0 +1,53 @@
+import { faScroll } from "@fortawesome/free-solid-svg-icons"
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
+
+const SectionOne = () => {
+  return (
+    <div className="py-16">
+      <div className="text-xl mb-10 text-center font-semibold"><span className="inline-block">A</span><span className="inline-block decoration-wavy underline underline-offset-8">bout U</span><span className="inline-block">S</span></div>
+      <div className="flex items-center justify-between">
+        <div className="w-1/3">
+          <div className="text-9xl font-[500]">6+</div>
+          <div>Years Working Experience</div>
+        </div>
+        <div className="w-3/3">
+          <div>I am Johnson Fashanu, A Software Engineer. I run an agile team of designers and developer to carry your project completion.
+            At TDigital, we are passionate about your product and how we can serve our clients through 1-1 consultation and more.
+          </div>
+          <a href="mailto:johnfash@tdigital.ng" className="font-semibold inline-block mt-3 mb-4">johnfash@tdigital.ng</a>
+          <div className="flex justify-between items-center">
+            <div className="w-[32%] bg-white shadow-md rounded-lg p-6 text-center">
+              <span className="inline-flex items-center justify-center rounded-full bg-[#E5FAFA] w-12 h-12">
+                <FontAwesomeIcon icon={faScroll} />
+              </span>
+              <div className="font-semibold my-2">UI/UX Design</div>
+              <div>
+                Research, strategize, create mockup and user focused design to meet your needs.
+              </div>
+            </div>
+            <div className="w-[32%] bg-white shadow-md rounded-lg p-6 text-center">
+              <span className="inline-flex items-center justify-center rounded-full bg-[#ECEAF9] w-12 h-12">
+                <FontAwesomeIcon icon={faScroll} />
+              </span>
+              <div className="font-semibold my-2">Programming</div>
+              <div>
+                Converting UI/UX into clean functional code, testing and optimization.
+              </div>
+            </div>
+            <div className="w-[32%] bg-white shadow-md rounded-lg p-6 text-center">
+              <span className="inline-flex items-center justify-center rounded-full bg-[#FFEEEE] w-12 h-12">
+                <FontAwesomeIcon icon={faScroll} />
+              </span>
+              <div className="font-semibold my-2">Project Submission</div>
+              <div>
+                Continuous test/version control and deployment of final codebase and app.
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  )
+}
+
+export default SectionOne
