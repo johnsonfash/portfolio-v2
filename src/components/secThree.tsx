@@ -7,7 +7,7 @@ const SectionThree = () => {
   return (
     <div className="py-16">
       <div className="text-xl mb-6 text-center font-semibold"><span className="inline-block">T</span><span className="inline-block decoration-wavy underline underline-offset-8">estimonial</span><span className="inline-block">s</span></div>
-      <div className="text-center w-1/2 mb-10 mx-auto">
+      <div className="text-center w-full lg:w-1/2 mb-10 mx-auto">
         Our team members are experts in all facets of the software industry.
       </div>
       <div className="flex w-full pb-10 overflow-x-auto relative">

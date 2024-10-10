@@ -42,3 +42,19 @@ export const testimonials = [
     comment: 'Their expertise in mobile app development is top-notch. They delivered on time and the app has received rave reviews from our customers!'
   },
 ]
+
+export const submit = async (data: Record<string, any>) => {
+  try {
+    const res = await fetch('/api/email',
+      {
+        body: JSON.stringify(data),
+        headers: {
+          'Content-Type': 'application/json',
+        },
+        method: 'post'
+      });
+    return await res.json() as { data: any, status: boolean, message: string }
+  } catch (error: any) {
+    return { status: false, message: error.message, data: null }
+  }
+}

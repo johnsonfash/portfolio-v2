@@ -12,3 +12,6 @@ body {
   font-family: Arial, Helvetica, sans-serif;
   font-family: "Poppins", sans-serif;
 }
+#hambugger:checked~.hambugger-mate {
+  max-height: 36px;
+}

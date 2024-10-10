@@ -5,8 +5,8 @@ import Link from "next/link"
 
 const Intro = () => {
   return (
-    <section className="flex py-10 justify-between items-center">
-      <div className="w-1/2 pr-[10%]">
+    <section className="flex flex-col-reverse lg:flex-row  py-10 justify-between items-center">
+      <div className="w-full lg:w-1/2 pr-[10%]">
         <div className="text-lg font-[500]">
           👋 Hi, I&apos;m Johnson Fash
         </div>
@@ -35,7 +35,7 @@ const Intro = () => {
           <Link href='' className="inline-block bg-[#4E29C4] text-white rounded-lg py-2 px-4">Book a Meeting</Link>
         </div>
       </div>
-      <div className="w-1/2">
+      <div className="w-full sm:w-2/3 mx-auto mb-10 lg:mb-0 lg:w-1/2">
         <Image src='/image-cover.png' alt='' width={700} height={600} />
       </div>
     </section>

@@ -11,9 +11,9 @@ const Projects = () => {
         <button className="mx-2 px-3 py-1 rounded-sm bg-slate-50 border hover:shadow-xl active:shadow-none shadow-md">Desktop Apps</button>
         <button className="mx-2 px-3 py-1 rounded-sm bg-slate-50 border hover:shadow-xl active:shadow-none shadow-md">Mobile Apps</button>
       </div>
-      <div className="flex items-stretch justify-between">
-        <div className="w-[32%] flex flex-col justify-between">
-          <div className="border rounded-md shadow-md hover:shadow-none min-h-[39%] flex flex-col">
+      <div className="flex flex-wrap items-stretch justify-between">
+        <div className="w-full md:w-[32%] mb-10 md:mb-0 flex flex-col justify-between">
+          <div className="border rounded-md mb-10 md:mb-0 shadow-md hover:shadow-none min-h-[39%] flex flex-col">
             <div className="h-full overflow-hidden">
               <Image src='/guideapp-zep.png' alt='' className="object-cover w-full h-full" width={3420} height={2214} />
             </div>
@@ -25,7 +25,7 @@ const Projects = () => {
               <a href="https://my.guideapp.co" target="_blank" className="inline-flex items-center justify-center text-white rounded-full bg-[#4E29C4] h-7 w-7"><FontAwesomeIcon icon={faChevronRight} /></a>
             </div>
           </div>
-          <div className="border rounded-md shadow-md hover:shadow-none min-h-[59%] flex flex-col">
+          <div className="border rounded-md mb-10 md:mb-0 shadow-md hover:shadow-none min-h-[59%] flex flex-col">
             <div className="h-full overflow-hidden">
               <Image src='/swiftsign-zep.png' alt='' className="object-cover w-full h-full" width={3420} height={2214} />
             </div>
@@ -38,7 +38,7 @@ const Projects = () => {
             </div>
           </div>
         </div>
-        <div className="w-[32%] flex flex-col justify-between">
+        <div className="w-full md:w-[32%] mb-10 md:mb-0  flex flex-col justify-between">
           <div className="border rounded-md shadow-md hover:shadow-none min-h-[25%] flex flex-col">
             <div className="h-full overflow-hidden">
               <Image src='/swayauth-zep.png' alt='' className="object-cover w-full h-full" width={3420} height={2214} />
@@ -51,7 +51,7 @@ const Projects = () => {
               <a href="https://swayauth.com" target="_blank" className="inline-flex items-center justify-center text-white rounded-full bg-[#4E29C4] h-7 w-7"><FontAwesomeIcon icon={faChevronRight} /></a>
             </div>
           </div>
-          <div className="border rounded-md shadow-md hover:shadow-none min-h-[46%] my-[6%]  flex flex-col">
+          <div className="border rounded-md mb-10 md:mb-0 shadow-md hover:shadow-none min-h-[46%] my-[6%]  flex flex-col">
             <div className="h-full">
               <Image src='/roadlers-zep.png' alt='' className="object-cover w-full h-full" width={3420} height={2214} />
             </div>
@@ -76,7 +76,7 @@ const Projects = () => {
             </div>
           </div>
         </div>
-        <div className="w-[32%] flex flex-col justify-between">
+        <div className="w-full md:w-[32%] flex flex-col justify-between">
           <div className="border rounded-md shadow-md hover:shadow-none min-h-[25%] flex flex-col">
             <div className="h-full overflow-hidden">
               <Image src='/dormot-zep.png' alt='' className="object-cover w-full h-full" width={3420} height={2214} />
@@ -89,7 +89,7 @@ const Projects = () => {
               <a href="https://www.yourdormot.com" target="_blank" className="inline-flex items-center justify-center text-white rounded-full bg-[#4E29C4] h-7 w-7"><FontAwesomeIcon icon={faChevronRight} /></a>
             </div>
           </div>
-          <div className="border rounded-md shadow-md hover:shadow-none min-h-[25%] my-[6%] flex flex-col">
+          <div className="border rounded-md mb-10 md:mb-0 shadow-md hover:shadow-none min-h-[25%] my-[6%] flex flex-col">
             <div className="h-full overflow-hidden">
               <Image src='/supermart-zep.png' alt='' className="object-cover w-full h-full" width={3420} height={2214} />
             </div>

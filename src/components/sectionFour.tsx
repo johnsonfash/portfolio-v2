@@ -6,6 +6,7 @@ import { useState } from "react"
 import { toast } from "react-toastify"
 import Input from "./input"
 import TextArea from "./textarea"
+import { submit } from "./utils"
 
 const SectionFour = () => {
   const [loading, setloading] = useState(false);
@@ -22,35 +23,21 @@ const SectionFour = () => {
     setloading(true)
     const res = await submit(data);
     if (res.status) {
-      toast.success('🦄 Wow so easy!');
+      toast.success(`🦄 ${res.message}`);
     } else {
-      toast.error('🦄 Wow so easy!');
+      toast.error(res.message);
     }
     setloading(false);
   }
 
-  const submit = async (data: Record<string, any>) => {
-    try {
-      const res = await fetch('/api/email',
-        {
-          body: JSON.stringify(data),
-          headers: {
-            'Content-Type': 'application/json',
-          },
-          method: 'post'
-        });
-      return await res.json() as { data: any, status: boolean, message: string }
-    } catch (error: any) {
-      return { status: false, message: error.message, data: null }
-    }
-  }
+
 
   return (
     <div className="py-16">
       <div className="text-xl mb-6 text-center font-semibold"><span className="inline-block">C</span><span className="inline-block decoration-wavy underline underline-offset-8">ontact U</span><span className="inline-block">s</span></div>
       <div className="text-center w-1/2 mb-12 mx-auto">Got a project? Let&apos;s talk.</div>
-      <div className="flex justify-between">
-        <div className="w-[38%]">
+      <div className="flex flex-wrap justify-between">
+        <div className="w-full lg:w-[38%]">
           <div className="text-[0.9rem]">CONTACT INFO</div>
           <div className="text-3xl mb-4 font-[500]">Get in touch</div>
           <div className="flex">
@@ -92,7 +79,7 @@ const SectionFour = () => {
             </div>
           </div>
         </div>
-        <form onSubmit={handleSubmit} className="w-[58%] block">
+        <form onSubmit={handleSubmit} className="w-full mt-10 lg:mt-0 lg:w-[58%] block">
           <div className="flex justify-between">
             <div className="w-[48%]">
               <label className="block mb-2">First Name*</label>
