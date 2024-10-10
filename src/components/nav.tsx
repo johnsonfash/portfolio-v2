@@ -12,7 +12,7 @@ const Nav = () => {
             <span className="inline-block text-[1.4rem] font-bold">T-D</span>
             <span className="inline-block ">igital</span>
           </Link>
-          <label htmlFor="hambugger" className="cursor-pointer select-none text-[1.4rem]">
+          <label htmlFor="hambugger" className="cursor-pointer lg:hidden select-none text-[1.4rem]">
             <FontAwesomeIcon icon={faBars} />
           </label>
         </div>
