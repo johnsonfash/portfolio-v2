@@ -1,4 +1,4 @@
-import { faScroll } from "@fortawesome/free-solid-svg-icons"
+import { faEnvelope, faScroll } from "@fortawesome/free-solid-svg-icons"
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
 
 const SectionOne = () => {
@@ -11,10 +11,10 @@ const SectionOne = () => {
           <div className="ml-4 lg:ml-0 font-[500] lg:font-[400]">Years Working Experience</div>
         </div>
         <div className="w-full lg:w-3/4">
-          <div>I am Johnson Fashanu, A Software Engineer. I run an agile team of designers and developer to carry your project completion.
-            At TDigital, we are passionate about your product and how we can serve our clients through 1-1 consultation and more.
+          <div>At TDigital, we run an agile team of designers and developer to carry your project to completion.
+            We are passionate about your product and how we can serve you through our 1-1 consultation and more.
           </div>
-          <a href="mailto:johnfash@tdigital.ng" className="font-semibold inline-block mt-3 mb-4">johnfash@tdigital.ng</a>
+          <a href="mailto:johnfash@tdigital.ng" className="font-semibold inline-block mt-3 mb-4"><span className="inline-block mr-1"><FontAwesomeIcon icon={faEnvelope} /></span> johnfash@tdigital.ng</a>
           <div className="flex flex-wrap justify-between items-center">
             <div className="w-full md:w-[32%] mb-10 md:mb-0 bg-white shadow-md rounded-lg p-6 text-center">
               <span className="inline-flex items-center justify-center rounded-full bg-[#E5FAFA] w-12 h-12">

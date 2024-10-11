@@ -13,7 +13,7 @@ const Home = () => {
       <div className="max-w-screen-xl mx-auto px-6 lg:px-10">
         <Intro />
       </div>
-      <div className="bg-[#F6F4FC]">
+      <div className="bg-[#F6F4FC]" id="about">
         <div className="max-w-screen-xl mx-auto px-6 lg:px-10">
           <SectionOne />
         </div>

@@ -8,14 +8,14 @@ const Intro = () => {
     <section className="flex flex-col-reverse lg:flex-row  py-10 justify-between items-center">
       <div className="w-full lg:w-1/2 pr-[10%]">
         <div className="text-lg font-[500]">
-          👋 Hi, I&apos;m Johnson Fash
+          👋 Hi, Welcome to TDigital
         </div>
-        <h3 className="text-4xl font-semibold mt-4 mb-6">Software <span className="inline-block decoration-wavy underline underline-offset-4">Dev</span>eloper</h3>
+        <h3 className="text-4xl font-semibold mt-4 mb-6">Software <span className="inline-block decoration-wavy underline underline-offset-4">Dev</span>elopment</h3>
         <div>
-          I use code to interprete complex problem into simple solutions for my clients.
+          We use code to interprete complex problem into simple solutions for our clients.
         </div>
         <div className="py-4">
-          <span className="inline-block text-slate-700 mr-3 py-2">Contact Me</span>
+          <span className="inline-block text-slate-700 mr-3 py-2">Contact Us</span>
           <span>
             <Link href='https://linkedin.com/in/johnfash' className="py-2 inline-block px-3">
               <FontAwesomeIcon icon={faLinkedin} />

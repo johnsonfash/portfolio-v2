@@ -105,7 +105,7 @@ const Projects = () => {
             <div className="h-full">
               {/* <Image src='/guideapp.png' alt='' className="object-cover w-full h-full" width={3420} height={2214} /> */}
             </div>
-            <div className="border-t flex py-2 px-3 items-center justify-between">
+            <div id="services" className="border-t flex py-2 px-3 items-center justify-between">
               <div>
                 <div className="font-semibold">VPN Mobile App</div>
                 <div className="text-[0.8rem]">Vpn app</div>

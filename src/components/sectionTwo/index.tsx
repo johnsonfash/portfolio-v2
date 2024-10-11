@@ -26,7 +26,7 @@ const SectionTwo = () => {
             <div className="font-[500] lg:font-[400]">Happy Clients</div>
           </div>
         </div>
-        <div className="lg:flex inline-flex items-center shadow-lg py-2 px-3 bg-[#fffdf9] rounded-lg">
+        <div id="portfolio" className="lg:flex inline-flex items-center shadow-lg py-2 px-3 bg-[#fffdf9] rounded-lg">
           <span className="inline-flex items-center justify-center rounded-full mr-2 bg-[#33ABFD] text-white w-6 h-6"><FontAwesomeIcon icon={faCheck} /></span>
           <div>
             <div className="font-[600]">Projects Done</div>
@@ -34,7 +34,7 @@ const SectionTwo = () => {
           </div>
         </div>
       </div>
-      <div className="my-12">
+      <div className="my-12" >
         <div className="text-xl mb-6 text-center font-semibold"><span className="inline-block">P</span><span className="inline-block decoration-wavy underline underline-offset-8">ortfoli</span><span className="inline-block">o</span></div>
         <div className="text-center w-full lg:w-1/2 mx-auto">
           Since the start of the year, we have successfully completed a list of projects listed below.

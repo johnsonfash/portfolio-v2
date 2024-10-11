@@ -18,9 +18,9 @@ const Nav = () => {
         </div>
         <div className="select-none">
           <Link href='/' className="pr-3 block lg:inline-block md:pr-6 lg:pl-6 py-4">Home</Link>
-          <Link href='#portfolio' className="block lg:inline-block lg:px-6 py-4">Portfolio</Link>
           <Link href='#about' className="block lg:inline-block  lg:px-6 py-4">About</Link>
-          <Link href='#team' className="block lg:inline-block  lg:px-6 py-4">Team</Link>
+          <Link href='#portfolio' className="block lg:inline-block lg:px-6 py-4">Portfolio</Link>
+          <Link href='#services' className="block lg:inline-block  lg:px-6 py-4">Services</Link>
         </div>
         <div className="select-none">
           <a href="" className="inline-block bg-[#4E29C4] text-white rounded-lg py-2 px-4">Hire Us</a>

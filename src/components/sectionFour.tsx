@@ -58,11 +58,11 @@ const SectionFour = () => {
             <div className="inline-block mr-2 text-app-purple"><FontAwesomeIcon icon={faPhone} /></div>
             <div className="inline-block">
               <div className="text-[0.8rem]">Address:</div>
-              <div>No 40, Paradise Estate, Lekki-Ajah Lagos Nigeria</div>
+              <div>No. 3, Paradise Estate, Lekki-Ajah Lagos Nigeria.</div>
             </div>
           </div>
           <div className="mt-4">
-            <div className="text-[0.9rem]">FOLLOW US</div>
+            <div className="text-[0.9rem]">FOLLOW</div>
             <div className="flex">
               <Link href='https://linkedin.com/in/johnfash' className="py-2 inline-block px-3">
                 <FontAwesomeIcon icon={faLinkedin} />
