@@ -1,5 +1,5 @@
 import { faDropbox } from "@fortawesome/free-brands-svg-icons"
-import { faComputer, faEnvelope, faPaintBrush, faScroll } from "@fortawesome/free-solid-svg-icons"
+import { faComputer, faEnvelope, faPaintBrush } from "@fortawesome/free-solid-svg-icons"
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
 
 const SectionOne = () => {
