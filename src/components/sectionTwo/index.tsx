@@ -8,7 +8,7 @@ const SectionTwo = () => {
   return (
     <div className="py-10">
       <div className="lg:flex block text-center lg:text-left flex-wrap items-center justify-between">
-        <div className="shadow-lg mb-6 lg:mb-0 inline-block mx-auto py-2 px-3 bg-[#FFFAF2] rounded-lg">
+        <div className="shadow-lg mb-6 lg:mb-0 inline-block mx-auto py-2 px-3 bg-[#FFFAF2] dark:bg-app-black rounded-lg">
           <span className="inline-block mr-2 text-xl text-amber-500"><FontAwesomeIcon icon={faStopwatch20} /></span>
           <span className="inline-block">In Time Projects</span>
         </div>
@@ -26,7 +26,7 @@ const SectionTwo = () => {
             <div className="font-[500] lg:font-[400]">Happy Clients</div>
           </div>
         </div>
-        <div id="portfolio" className="lg:flex inline-flex items-center shadow-lg py-2 px-3 bg-[#fffdf9] rounded-lg">
+        <div id="portfolio" className="lg:flex inline-flex items-center shadow-lg py-2 px-3 bg-[#fffdf9] dark:bg-app-black rounded-lg">
           <span className="inline-flex items-center justify-center rounded-full mr-2 bg-[#33ABFD] text-white w-6 h-6"><FontAwesomeIcon icon={faCheck} /></span>
           <div>
             <div className="font-[600]">Projects Done</div>

@@ -13,7 +13,7 @@ const SectionThree = () => {
       <div className="flex w-full pb-10 overflow-x-auto relative">
         {
           testimonials.map((people, u) =>
-            <div key={u} className="min-w-[400px] mr-6 bg-white p-4 rounded-md shadow-md">
+            <div key={u} className="min-w-[400px] mr-6 bg-white dark:bg-app-black p-4 rounded-md shadow-md">
               <div className="flex justify-between">
                 <div className="inline-flex w-16 h-16">
                   <Image src={people.image} alt='' className="object-contain w-full h-full" width={255} height={255} />

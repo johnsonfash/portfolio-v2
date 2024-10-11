@@ -5,7 +5,7 @@ import Link from "next/link"
 
 const Intro = () => {
   return (
-    <section className="flex flex-col-reverse lg:flex-row  py-10 justify-between items-center">
+    <section className="flex flex-col-reverse lg:flex-row dark:text-white py-10 justify-between items-center">
       <div className="w-full lg:w-1/2 pr-[10%]">
         <div className="text-lg font-[500]">
           👋 Hi, Welcome to TDigital
@@ -15,7 +15,7 @@ const Intro = () => {
           We use code to interprete complex problem into simple solutions for our clients.
         </div>
         <div className="py-4">
-          <span className="inline-block text-slate-700 mr-3 py-2">Contact Us</span>
+          <span className="inline-block text-slate-700 dark:text-slate-400 mr-3 py-2">Contact Us</span>
           <span>
             <Link href='https://linkedin.com/in/johnfash' className="py-2 inline-block px-3">
               <FontAwesomeIcon icon={faLinkedin} />

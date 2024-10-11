@@ -83,26 +83,26 @@ const SectionFour = () => {
           <div className="flex flex-wrap justify-between">
             <div className="w-full md:w-[48%] mb-3 md:mb-0">
               <label className="block mb-2">First Name*</label>
-              <Input disabled={loading} required name="first_name" placeholder="Your first name" />
+              <Input disabled={loading} className="dark:bg-app-black" required name="first_name" placeholder="Your first name" />
             </div>
             <div className="w-full md:w-[48%]">
               <label className="block mb-2 tex">Last Name*</label>
-              <Input disabled={loading} required name="last_name" placeholder="Your last name" />
+              <Input disabled={loading} className="dark:bg-app-black"  required name="last_name" placeholder="Your last name" />
             </div>
           </div>
           <div className="flex flex-wrap mt-3 justify-between">
             <div className="w-full md:w-[48%]  mb-3 md:mb-0">
               <label className="block mb-2">Email*</label>
-              <Input disabled={loading} type="email" name="email" placeholder="Your working email" />
+              <Input disabled={loading} className="dark:bg-app-black"  type="email" name="email" placeholder="Your working email" />
             </div>
             <div className="w-full md:w-[48%]">
               <label className="block mb-2">Phone</label>
-              <Input disabled={loading} type="number" name="phone" placeholder="Your phone number" className="[-moz-appearance:_textfield] [&::-webkit-outer-spin-button]:m-0 [&::-webkit-outer-spin-button]:appearance-none [&::-webkit-inner-spin-button]:m-0 [&::-webkit-inner-spin-button]:appearance-none" />
+              <Input disabled={loading}  type="number" name="phone" placeholder="Your phone number" className="dark:bg-app-black [-moz-appearance:_textfield] [&::-webkit-outer-spin-button]:m-0 [&::-webkit-outer-spin-button]:appearance-none [&::-webkit-inner-spin-button]:m-0 [&::-webkit-inner-spin-button]:appearance-none" />
             </div>
           </div>
           <div className="mt-3">
             <label className="block mb-2">Message*</label>
-            <TextArea disabled={loading} name="message" required className="resize-none" />
+            <TextArea disabled={loading} name="message" required className="resize-none dark:bg-app-black" />
           </div>
           <div className="mt-3">
             <button disabled={loading} type="submit" className="bg-app-purple w-full md:w-auto md:min-w-64 flex justify-center items-center py-2 px-12 text-white rounded-md">

@@ -1,4 +1,5 @@
-import { faEnvelope, faScroll } from "@fortawesome/free-solid-svg-icons"
+import { faDropbox } from "@fortawesome/free-brands-svg-icons"
+import { faComputer, faEnvelope, faPaintBrush, faScroll } from "@fortawesome/free-solid-svg-icons"
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
 
 const SectionOne = () => {
@@ -16,27 +17,27 @@ const SectionOne = () => {
           </div>
           <a href="mailto:johnfash@tdigital.ng" className="font-semibold inline-block mt-3 mb-4"><span className="inline-block mr-1"><FontAwesomeIcon icon={faEnvelope} /></span> johnfash@tdigital.ng</a>
           <div className="flex flex-wrap justify-between items-center">
-            <div className="w-full md:w-[32%] mb-10 md:mb-0 bg-white shadow-md rounded-lg p-6 text-center">
-              <span className="inline-flex items-center justify-center rounded-full bg-[#E5FAFA] w-12 h-12">
-                <FontAwesomeIcon icon={faScroll} />
+            <div className="w-full md:w-[32%] mb-10 md:mb-0 bg-white dark:bg-app-black shadow-md rounded-lg p-6 text-center">
+              <span className="inline-flex dark:text-black items-center justify-center rounded-full bg-[#E5FAFA] w-12 h-12">
+                <FontAwesomeIcon icon={faPaintBrush} />
               </span>
               <div className="font-semibold my-2">UI/UX Design</div>
               <div>
                 Research, strategize, create mockup and user focused design to meet your needs.
               </div>
             </div>
-            <div className="w-full md:w-[32%] mb-10 md:mb-0 bg-white shadow-md rounded-lg p-6 text-center">
-              <span className="inline-flex items-center justify-center rounded-full bg-[#ECEAF9] w-12 h-12">
-                <FontAwesomeIcon icon={faScroll} />
+            <div className="w-full md:w-[32%] mb-10 md:mb-0 bg-white dark:bg-app-black shadow-md rounded-lg p-6 text-center">
+              <span className="inline-flex dark:text-black items-center justify-center rounded-full bg-[#ECEAF9] w-12 h-12">
+                <FontAwesomeIcon icon={faComputer} />
               </span>
               <div className="font-semibold my-2">Programming</div>
               <div>
                 Converting UI/UX into clean functional code, testing and optimization.
               </div>
             </div>
-            <div className="w-full md:w-[32%] bg-white shadow-md rounded-lg p-6 text-center">
-              <span className="inline-flex items-center justify-center rounded-full bg-[#FFEEEE] w-12 h-12">
-                <FontAwesomeIcon icon={faScroll} />
+            <div className="w-full md:w-[32%] bg-white dark:bg-app-black shadow-md rounded-lg p-6 text-center">
+              <span className="inline-flex dark:text-black items-center justify-center rounded-full bg-[#FFEEEE] w-12 h-12">
+                <FontAwesomeIcon icon={faDropbox} />
               </span>
               <div className="font-semibold my-2">Project Submission</div>
               <div>
