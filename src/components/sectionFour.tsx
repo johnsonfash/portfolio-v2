@@ -80,22 +80,22 @@ const SectionFour = () => {
           </div>
         </div>
         <form onSubmit={handleSubmit} className="w-full mt-10 lg:mt-0 lg:w-[58%] block">
-          <div className="flex justify-between">
-            <div className="w-[48%]">
+          <div className="flex flex-wrap justify-between">
+            <div className="w-full md:w-[48%] mb-3 md:mb-0">
               <label className="block mb-2">First Name*</label>
               <Input disabled={loading} required name="first_name" placeholder="Your first name" />
             </div>
-            <div className="w-[48%]">
+            <div className="w-full md:w-[48%]">
               <label className="block mb-2 tex">Last Name*</label>
               <Input disabled={loading} required name="last_name" placeholder="Your last name" />
             </div>
           </div>
-          <div className="flex mt-3 justify-between">
-            <div className="w-[48%]">
+          <div className="flex flex-wrap mt-3 justify-between">
+            <div className="w-full md:w-[48%]  mb-3 md:mb-0">
               <label className="block mb-2">Email*</label>
               <Input disabled={loading} type="email" name="email" placeholder="Your working email" />
             </div>
-            <div className="w-[48%]">
+            <div className="w-full md:w-[48%]">
               <label className="block mb-2">Phone</label>
               <Input disabled={loading} type="number" name="phone" placeholder="Your phone number" className="[-moz-appearance:_textfield] [&::-webkit-outer-spin-button]:m-0 [&::-webkit-outer-spin-button]:appearance-none [&::-webkit-inner-spin-button]:m-0 [&::-webkit-inner-spin-button]:appearance-none" />
             </div>
@@ -105,7 +105,7 @@ const SectionFour = () => {
             <TextArea disabled={loading} name="message" required className="resize-none" />
           </div>
           <div className="mt-3">
-            <button disabled={loading} type="submit" className="bg-app-purple min-w-64 flex justify-center items-center py-2 px-12 text-white rounded-md">
+            <button disabled={loading} type="submit" className="bg-app-purple w-full md:w-auto md:min-w-64 flex justify-center items-center py-2 px-12 text-white rounded-md">
               {
                 loading ?
                   <span className="inline-flex animate-spin items-center justify-center relative w-6 h-6 rounded-full bg-white">

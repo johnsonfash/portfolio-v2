@@ -4,12 +4,12 @@ import Image from "next/image"
 
 const Projects = () => {
   return (
-    <div>
-      <div className="flex items-center justify-center my-10">
-        <button className="mx-2 px-3 py-1 rounded-sm bg-[#4E29C4] border hover:shadow-xl active:shadow-none shadow-sm text-white">All</button>
-        <button disabled className="mx-2 px-3 py-1 rounded-sm bg-slate-50 border hover:shadow-xl active:shadow-none shadow-md">Web Apps</button>
-        <button disabled className="mx-2 px-3 py-1 rounded-sm bg-slate-50 border hover:shadow-xl active:shadow-none shadow-md">Desktop Apps</button>
-        <button disabled className="mx-2 px-3 py-1 rounded-sm bg-slate-50 border hover:shadow-xl active:shadow-none shadow-md">Mobile Apps</button>
+    <div className="relative w-full">
+      <div className="flex w-full overflow-x-auto items-center justify-center mb-6 pb-4 mt-10">
+        <button className="mx-2 px-3 py-1 rounded-sm whitespace-nowrap bg-[#4E29C4] border hover:shadow-xl active:shadow-none shadow-sm text-white">All</button>
+        <button disabled className="mx-2 whitespace-nowrap px-3 py-1 rounded-sm bg-slate-50 border hover:shadow-xl active:shadow-none shadow-md">Web Apps</button>
+        <button disabled className="mx-2 whitespace-nowrap px-3 py-1 rounded-sm bg-slate-50 border hover:shadow-xl active:shadow-none shadow-md">Desktop Apps</button>
+        <button disabled className="mx-2 whitespace-nowrap px-3 py-1 rounded-sm bg-slate-50 border hover:shadow-xl active:shadow-none shadow-md">Mobile Apps</button>
       </div>
       <div className="flex flex-wrap items-stretch justify-between">
         <div className="w-full md:w-[32%] mb-10 md:mb-0 flex flex-col justify-between">
