@@ -32,7 +32,7 @@ const Intro = () => {
           </span>
         </div>
         <div>
-          <Link href='' className="inline-block bg-[#4E29C4] text-white rounded-lg py-2 px-4">Book a Meeting</Link>
+          <a href='https://calendly.com/johnfash/meeting' target="_blank" className="inline-block bg-[#4E29C4] text-white rounded-lg py-2 px-4">Book a Meeting</a>
         </div>
       </div>
       <div className="w-full sm:w-2/3 mx-auto mb-10 lg:mb-0 lg:w-1/2">

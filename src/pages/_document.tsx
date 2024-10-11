@@ -12,7 +12,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
 })(window,document,'script','dataLayer','GTM-NSQPV9WX');` }} strategy="afterInteractive" />
         <link rel="icon" href="/profile.png" />
-        <title>TDigital | Innovative Solutions in UI Design and Development</title>
+        <title>TDigital | Innovative Solutions in UI Design and Development | Number One Website Development Company in Lagos Nigeria | Best Mobile App Development Company in Lagos Nigeria | Best Desktop App Development Company in Lagos Nigeria | Best Developers in Lagos Nigeria</title>
         <meta charSet="UTF-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <meta name="description" content="TDigital is a team of expert engineers specializing in UI design, and developing mobile, web, and desktop applications. We also provide comprehensive consultation services to bring your ideas to life." />
